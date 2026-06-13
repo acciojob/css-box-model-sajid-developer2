@@ -1,19 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        .box {
-            width: 300px;
-            background-color: lightblue;
-            border: 15px solid blue;
-            padding: 50px;
-            margin: 20px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Box Model Design</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+
+    .container {
+        margin: 20px;
+    }
+
+    .box {
+        width: 300px;
+        background-color: lightblue;
+        border: 15px solid blue;
+        padding: 50px;
+        margin: 20px;
+        color: black;
+    }
+
+    .label {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+</style>
 </head>
 <body>
+
+<div class="container">
+    <div class="label">margin 20px</div>
+
     <div class="box">
         This is a demo of box model, try to replicate this box model in Html & Css and pass all the test cases.
     </div>
+</div>
+
 </body>
 </html>
